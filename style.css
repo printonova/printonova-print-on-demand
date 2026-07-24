@@ -354,6 +354,30 @@ nav a{
 }
 
 /* ==========================
+   PRINT ON DEMAND SECTIONS
+========================== */
+
+.steps-grid,
+.business-grid,
+.dropshipping-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:900px;
+    margin:40px auto 0;
+}
+
+@media(max-width:768px){
+
+.steps-grid,
+.business-grid,
+.dropshipping-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+/* ==========================
    SHOP HEADER
 ========================== */
 
