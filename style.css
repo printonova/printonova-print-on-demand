@@ -497,6 +497,40 @@ nav a{
 
     gap:30px;
 
+    justify-items:center;
+
+}
+
+/* Product Card */
+
+.product-card{
+
+    width:100%;
+
+    max-width:340px;
+
+}
+
+/* Category Section */
+
+.category-section{
+
+    margin-bottom:70px;
+
+}
+
+/* Category Heading */
+
+.category-title{
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+    margin-top:10px;
+
+    color:#fff;
+
 }
 
 /* ==========================
