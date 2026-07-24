@@ -503,16 +503,6 @@ nav a{
 
 }
 
-/* Product Card */
-
-.product-card{
-
-    width:100%;
-
-    max-width:340px;
-
-}
-
 /* Category Section */
 
 .category-section{
@@ -555,8 +545,11 @@ nav a{
 
     box-shadow:0 10px 30px rgba(0,0,0,.35);
 
-}
+    width:100%;
 
+    max-width:340px;
+
+}
 .product-card:hover{
 
     transform:translateY(-10px);
