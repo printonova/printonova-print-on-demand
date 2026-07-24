@@ -319,6 +319,16 @@ nav a{
     width:100%;
 }
 
+/* Mobile */
+@media(max-width:768px){
+
+.feature-grid{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+}
+
 .feature{
     background:#18181B;
     padding:30px 25px;
