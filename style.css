@@ -378,6 +378,57 @@ nav a{
 }
 
 /* ==========================
+   LOCAL BUSINESS
+========================== */
+
+.local-business{
+    background:#050505;
+}
+
+.local-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:900px;
+    margin:40px auto 0;
+}
+
+.local-card{
+    background:#18181B;
+    padding:30px 25px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.08);
+    text-align:center;
+    transition:.35s;
+}
+
+.local-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(24,216,208,.15);
+}
+
+.local-card h3{
+    color:#18d8d0;
+    margin-bottom:12px;
+    font-size:21px;
+}
+
+.local-card p{
+    color:#cbd5e1;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .local-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+}
+
+/* ==========================
    SHOP HEADER
 ========================== */
 
